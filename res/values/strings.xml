@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="login_dialog_cancel_tv">稍后再说</string>
+    <string name="login_dialog_confirm_tv">立马登录</string>
+</resources>

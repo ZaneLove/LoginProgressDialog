@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size_300dp"
+    android:layout_height="@dimen/size_170dp"
+    android:background="@drawable/dialog_login_shape"
+    android:orientation="vertical">
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="80dp"
+	    android:orientation="vertical">
+	    <TextView 
+	        style="@style/dialog_login_title_tv"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="12dp"
+	        android:gravity="center"
+	        android:text="温馨提示"/>
+	    <TextView 
+	        style="@style/dialog_login_prompt_tv"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/size_17dp"
+	        android:gravity="center"
+	        android:text="此功能需要您先登录之后才能使用哦！"/>
+	</LinearLayout>
+	
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/color_bc"
+	    android:layout_marginTop="12dp"/>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal"
+	    android:weightSum="2">
+	    
+	    <TextView 
+	        android:id="@+id/dialog_button_cancel"
+	        style="@style/dialog_login_btn_tv"
+	        android:layout_weight="1"
+			android:text="@string/login_dialog_cancel_tv"/>
+	    <View
+			android:layout_width="1dp"
+			android:layout_height="fill_parent"
+			android:background="@color/color_bc"/>
+	    <TextView
+			android:id="@+id/dialog_button_ok"
+			style="@style/dialog_login_btn_tv"
+			android:layout_weight="1"
+			android:text="@string/login_dialog_confirm_tv" />
+	</LinearLayout>
+</LinearLayout>

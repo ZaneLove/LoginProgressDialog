@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="dialog_login_title_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/textcolor_category_recorded_gv_tv</item>
+        <item name="android:textSize">@dimen/size_19dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="dialog_login_prompt_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/textColor_category_recorded</item>
+        <item name="android:textSize">@dimen/size_17dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="dialog_login_btn_tv">
+        <item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textColor">?attr/dialog_login_btn</item>
+		<item name="android:textSize">@dimen/size_17dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center</item>
+    </style>
+    
+    <style name="MyDialog" parent="android:Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@drawable/dialog_login_shape</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+</resources>

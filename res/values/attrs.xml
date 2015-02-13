@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textcolor_category_recorded_gv_tv" format="reference|color"/>
+    <attr name="textColor_category_recorded" format="reference|color"></attr>
+    <attr name="dialog_login_btn" format="reference|color" />
+</resources>
